@@ -16,9 +16,9 @@ We recommend installing the dependencies using conda.
 ## Sample Videos
 For evaluation, we utilize the videos provided the authors [here](http://people.csail.mit.edu/mrub/evm/#code). Place the videos in the `./source` folder. 
 
-#### Command Line Parameters: 
+#### Execution
 
-These parameters can be supplied at the time of running the code. Below are the possible combinations that can be given for command line arguments. 
+Please run the code present in each of the folders in order to execute it. 
 
 -  Quality factor `--Qf = {20,40,60,70,75,80,85,90}`
 -  Stability index  `--index = {1 or all}`
@@ -67,12 +67,9 @@ The results are saved in the following directory structure, with `results_itr_~.
                      ..
                      ..
 ```
-
 ### References: 
 
 - Schaefer, Gerald, and Michal Stich. ["UCID: An uncompressed color image database."](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5307/0000/UCID-an-uncompressed-color-image-database/10.1117/12.525375.short) Storage and Retrieval Methods and Applications for Multimedia 2004. Vol. 5307. International Society for Optics and Photonics, 2003.
-
-
 
 ### Citation 
   
