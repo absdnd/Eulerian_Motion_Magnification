@@ -1,20 +1,21 @@
 # Python Implementation of Eulerian Motion Magnification
 
-This repository contains a python implementation of the paper [Eulerian Video Magnification for Revealing Subtle Changes in the World
+This repository contains a python3 implementation of the paper ["Eulerian Video Magnification for Revealing Subtle Changes in the World"
 ](http://people.csail.mit.edu/mrub/evm/).
 
-# Environments and Dependenices
+# Dependencies
 
-+ tensorflow = '1.12.0' (cudatoolkit=9.0 & cudnn=7.1.2)
-+ scipy = '1.4.1'
-+ sklearn = '0.22.1'
-+ matplotlib = '3.1.3'
-+ numpy = '1.18.1'
++ scipy
++ scikit-image
++ opencv==3.4.1.15
++ numpy
++ pyrtools==1.0.0
 
 We recommend installing the dependencies using conda. 
 
 # Getting Started
-### Data Generation
+
+### Downloading data. 
 
 + Download the UCID dataset containing 1338 images .TIF images and place it in the `./data folder` in the root directory. Also download the [jpeg-read-toolbox](http://dde.binghamton.edu/download/jpeg_toolbox.zip) and place it in `/code/data_creation/dependencies/` as `jpeg_read_toolbox`. 
 
