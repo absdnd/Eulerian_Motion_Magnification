@@ -1,7 +1,7 @@
 # Python Implementation of Eulerian Motion Magnification
 
-This repository contains a python implementation of the paper "[Eulerian Video Magnification for Revealing Subtle Changes in the World
-]("http://people.csail.mit.edu/mrub/evm/").
+This repository contains a python implementation of the paper [Eulerian Video Magnification for Revealing Subtle Changes in the World
+](http://people.csail.mit.edu/mrub/evm/).
 
 # Environments and Dependenices
 
