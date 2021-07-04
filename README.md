@@ -1,6 +1,7 @@
 # Python Implementation of Eulerian Motion Magnification
 
-This repository contains the code for reproducing results presented in the paper "Double JPEG Compression Detection of Distinguishable Blocks in Images Compressed With Same Quantization Matrix" (MLSP 2020)
+This repository contains a python implementation of the paper "[Eulerian Video Magnification for Revealing Subtle Changes in the World
+]("http://people.csail.mit.edu/mrub/evm/").
 
 # Environments and Dependenices
 
