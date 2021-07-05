@@ -18,11 +18,10 @@ We support two execution butterworth bandpass filtering and ideal bandpass filte
 
 We allow for command line arguments in each of the codes. 
 
--  Quality factor `--Qf = {20,40,60,70,75,80,85,90}`
--  Stability index  `--index = {1 or all}`
--  Number of error images `--stack ={2,3}`
--  Run for all quality factors `--all_Q = {0,1}`
--  Number of repeated runs, `--runs = {1,2,3,4,5,6,7,8,9,10}`
+-  Lower cutoff frequency `--fl`
+-  Upper cutoff frequency `--fh`
+-  lambda_c `--lambda_c ={2,3}`
+-  Number of pyramid levels `--nLevels`
 
 ## Live Magnification
 
