@@ -54,8 +54,7 @@ def reconPyr(pyr):
                 res = hi2
     return res                           
 
- 
-# Magnify the object. 
+# Magnify only the grayscale image. 
 class Magnify(object):
 	
 	def  __init__(self, gray1,alpha, lambda_c, fl, fh,samplingRate):
@@ -93,10 +92,6 @@ class Magnify(object):
 		self.delta =  self.lambda_c/8./(1+self.alpha) 
 	
 	
-
-
-#Defining the function Magnify based on the basis of the second frame. 
-
 	def Magnify(self, gray2): 
 		u = 0
 		l = 0
@@ -107,7 +102,6 @@ class Magnify(object):
 		pyr = py2.pyr_coeffs
 		nLevels = self.nLevels
 		for u in range(nLevels):
-			# Updating lowpass1 and lowpass2 using signal.butter.
 			self.lowpass1[(u,0)] = (-self.high_b[1]*self.lowpass1[(u,0)] + self.high_a[0]*pyr[(u,0)]+ self.high_a[1]*self.pyr_prev[(u,0)])/self.high_b[0]
 			self.lowpass2[(u,0)] = (-self.low_b[1]*self.lowpass2[(u,0)]+ self.low_a[0]*pyr[(u,0)] + self.low_a[1]*self.pyr_prev[(u,0)])/self.low_b[0]
 			self.filtered[u] = self.lowpass1[(u,0)]-self.lowpass2[(u,0)]
@@ -134,7 +128,7 @@ class Magnify(object):
 		   
 			lambd = lambd/2.
 
-		# Output obtained by applying reconstruct Pyr on filter.s
+		# Reconstruct the pyramid using filtered. 
 		output = reconPyr(filtered)          
 		output = gray2 + output	    
 		output[output<0] =  0
