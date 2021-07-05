@@ -1,6 +1,3 @@
-![baby_updated](https://user-images.githubusercontent.com/30770447/124437520-c54d2e00-dd94-11eb-91c1-cf4c38b76bd6.gif)
-
-
 
 # Python Implementation of Eulerian Motion Magnification
 
