@@ -9,8 +9,7 @@ This repository contains a python3 implementation of the paper ["Eulerian Video 
 
 Input Video           |  Motion Magnified
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/30770447/124437520-c54d2e00-dd94-11eb-91c1-cf4c38b76bd6.gif)
-  ![](https://user-images.githubusercontent.com/30770447/124436291-6f2bbb00-dd93-11eb-995a-93fa9593812f.gif)
+![](https://user-images.githubusercontent.com/30770447/124437520-c54d2e00-dd94-11eb-91c1-cf4c38b76bd6.gif) |  ![](https://user-images.githubusercontent.com/30770447/124436291-6f2bbb00-dd93-11eb-995a-93fa9593812f.gif)
 
 
 ## Dependencies
