@@ -65,16 +65,17 @@ The results are saved in the following directory structure, with `results_itr_~.
                      ..
                      ..
 ```
-### References: 
-
-- Schaefer, Gerald, and Michal Stich. ["UCID: An uncompressed color image database."](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5307/0000/UCID-an-uncompressed-color-image-database/10.1117/12.525375.short) Storage and Retrieval Methods and Applications for Multimedia 2004. Vol. 5307. International Society for Optics and Photonics, 2003.
 
 ### Citation 
-  
-If you utilize the code for your work please consider citing: 
-```@inproceedings{Harish2020Double,
-  title={Double JPEG Compression Detection for Distinguishable Blocks in Images Compressed with Same Quantization Matrix},
-  author={Abhinav Narayan Harish*, Vinay Verma*, Nitin Khanna},
-  booktitle={IEEE International Workshop on Machine Learning for Signal Processing}
-  year={2020}
+
+If you utilize this code for your work, please cite the following paper. 
+```@article{Wu12Eulerian,
+  author = {Hao-Yu Wu and Michael Rubinstein and Eugene Shih and John Guttag and Fr\'{e}do Durand and
+  William T. Freeman},
+  title = {Eulerian Video Magnification for Revealing Subtle Changes in the World},
+  journal = {ACM Transactions on Graphics (Proc. SIGGRAPH 2012)},
+  year = {2012},
+  volume = {31},
+  number = {4},
+}
 ```
