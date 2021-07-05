@@ -6,7 +6,9 @@
 This repository contains a python3 implementation of the paper ["Eulerian Video Magnification for Revealing Subtle Changes in the World"
 ](http://people.csail.mit.edu/mrub/evm/).
 
-![butterbaby mp4fl_2 3333fh_2 6666start_1_end_200](https://user-images.githubusercontent.com/30770447/124436291-6f2bbb00-dd93-11eb-995a-93fa9593812f.gif)
+Input Video           |  Motion Magnified
+:-------------------------:|:-------------------------:
+!![](https://user-images.githubusercontent.com/30770447/124436291-6f2bbb00-dd93-11eb-995a-93fa9593812f.gif) |  ![](https://user-images.githubusercontent.com/30770447/124436291-6f2bbb00-dd93-11eb-995a-93fa9593812f.gif)
 
 
 ## Dependencies
