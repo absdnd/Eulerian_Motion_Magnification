@@ -26,45 +26,16 @@ We allow for command line arguments in each of the codes.
 
 ## Live Magnification
 
-To reproduce our results at `--Qf = 60`, `--index = 'all'` and `--stack = 3` for `--runs=10` the code is: 
-```shell
+The Eulerian Motion Magnification code can also be used for real-time performance using only the intensity channel. We use butterworth bandpass filtering for real-time perfomance. Please run live_magnification.sh for real-time performance. 
+
+<!-- ```shell
 python /code/generate_results/MCCNN.py \
 -- Qf = 60 \
 -- index = all\
 -- stack = 3\
 -- runs = 10\
 -- ptr = 1
-```
-- To execute for all quality factors please set the parameter `--all_Q=1`
-- Set `--ptr = 1` to use the pretrained model. 
-
-#### Obtaining Results 
-
-The results are saved in the following directory structure, with `results_itr_~.mat` containing the resultant predictions. 
-
-```
-/proposed_results
-  /MCNN
-     /index_all
-         /Quality_~
-            /runs
-              /MCNN_stack_3_scale_1
-                  /results/
-                      /results_itr_0.mat
-                      ..
-                      ..
-                      ..
-                  /loss_plots/
-                      /loss_itr_0.png
-                      ..
-                      ..
-                      ..
-                  /weights/
-                     /best_weights_itr_0.mat
-                     ..
-                     ..
-                     ..
-```
+``` -->
 
 ### Citation 
 
