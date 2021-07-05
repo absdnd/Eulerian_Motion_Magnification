@@ -13,12 +13,10 @@ This repository contains a python3 implementation of the paper ["Eulerian Video 
 
 We recommend installing the dependencies using conda. 
 
-## Sample Videos
-For evaluation, we utilize the videos provided the authors [here](http://people.csail.mit.edu/mrub/evm/#code). Place the videos in the `./source` folder. 
+## Execution
+We support two execution butterworth bandpass filtering and ideal bandpass filtering. For evaluation, we utilize the videos provided the authors [here](http://people.csail.mit.edu/mrub/evm/#code). Place the videos in the `./source` folder. 
 
-#### Execution
-
-Please run the code present in each of the folders in order to execute it. 
+We allow for command line arguments in each of the codes. 
 
 -  Quality factor `--Qf = {20,40,60,70,75,80,85,90}`
 -  Stability index  `--index = {1 or all}`
@@ -26,7 +24,7 @@ Please run the code present in each of the folders in order to execute it.
 -  Run for all quality factors `--all_Q = {0,1}`
 -  Number of repeated runs, `--runs = {1,2,3,4,5,6,7,8,9,10}`
 
-#### Live Magnification
+## Live Magnification
 
 To reproduce our results at `--Qf = 60`, `--index = 'all'` and `--stack = 3` for `--runs=10` the code is: 
 ```shell
